@@ -1,0 +1,40 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 98vh;
+}
+
+.game {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.error {
+  text-align: center;
+}
+
+.rules {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+}
+
+form button {
+  margin-top: 10px;
+}
+
+.code {
+  color: whitesmoke;
+}

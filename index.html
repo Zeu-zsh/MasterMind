@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./asset/js/script.js"></script>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <title>MasterMind</title>
+  </head>
+  <body>
+    <header>
+      
+    </header>
+    <main class="main-container">
+      <section class="game">
+        <div class="rules"><p>R : Rouge | J : Jaune | B : Bleu <br>V : Vert | N : Noir | O : Orange</p>
+          <p>Le code secret a été généré.<br>Vous avez 10 tentatives pour le découvrir.</p></div>
+        <div class="code"><p>XXXXX</p></div>
+        <div class="history"><p>------ Historique des tentatives ------</p></div>
+        <form action="">
+          <input class="choose" type="text" name="choose" minlength="5" required maxlength="5" placeholder="Code">
+          <button class="play" disabled>Jouer</button>
+        </form>
+        <div class="error"></div>
+      </section>
+    </main>
+  </body>
+</html>
